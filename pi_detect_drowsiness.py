@@ -9,8 +9,7 @@ import dlib
 import cv2
 
 def euclidean_dist(ptA, ptB):
-    # compute and return the euclidean distance between the two
-    # points
+
     return np.linalg.norm(ptA - ptB)
 
 def eye_aspect_ratio(eye):
